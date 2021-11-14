@@ -19,11 +19,16 @@ step 4 ) Saved the model using **Tensorflow.js** library.
 Built a normal Node.js project and integrate the ML Model with tensorflow.js library.
 
 /*--- Load libraries ---*/
-const tf = require("@tensorflow/tfjs")     
+
+const tf = require("@tensorflow/tfjs") 
+
 const tfn = require("@tensorflow/tfjs-node");
 
+
 /*---load tensorflowjs model-----*/
+
 var model ;
+
 const handler = tfn.io.fileSystem(tfjsModelPath);   //  tfjsModelPath -  path to tensorflow.js model (model.json)
 
 (async function(){
