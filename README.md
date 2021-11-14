@@ -19,14 +19,14 @@ step 4 ) Saved the model using **Tensorflow.js** library.
 
 Built a normal Node.js project and integrate the ML Model with tensorflow.js library.
 
-/*--- Load libraries ---*/
+//  Load libraries 
 
 const tf = require("@tensorflow/tfjs") 
 
 const tfn = require("@tensorflow/tfjs-node");
 
 
-/*---load tensorflowjs model-----*/
+//   Load tensorflowjs model
 
 var model ;
 
@@ -37,7 +37,7 @@ const handler = tfn.io.fileSystem(tfjsModelPath);   //  tfjsModelPath -  path to
 })() ;
 
 
-/*---Prediction---*/
+//    Prediction
 
 let predictions = await model.predict(tf.tensor3d(input)).data();
 
@@ -48,7 +48,7 @@ In this application, minimum 2 symptoms or maximum 4 symptoms can be entered the
 
 **--------------------------------------------------------------------------------------------------**
 
-Application deployed link :  https://disease-symptom-analysis-nk.herokuapp.com/
+**Application deployed link** :  https://disease-symptom-analysis-nk.herokuapp.com/
 
 **--------------------------------------------------------------------------------------------------**
 
