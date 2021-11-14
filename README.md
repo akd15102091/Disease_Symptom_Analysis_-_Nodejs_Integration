@@ -1,8 +1,9 @@
 # Disease_Symptom_Analysis_-_Nodejs_Integration
 
+Application deployed link :  https://disease-symptom-analysis-nk.herokuapp.com/
 
 
-# 1) Machine Learning Part :--
+## 1) Machine Learning Part :--
 
 step 1 ) First of all data scrapping is done using **GoogleSearch and BeautifulSoup libraries** from the url : https://www.nhp.gov.in/disease-a-z/ . Stored the disease and symptoms.
 
@@ -14,7 +15,7 @@ step 4 ) Saved the model using **Tensorflow.js** library.
 
 **--------------------------------------------------------------------**
 
-# 2) Node.js part :--
+## 2) Node.js part :--
 
 Built a normal Node.js project and integrate the ML Model with tensorflow.js library.
 
@@ -45,4 +46,5 @@ let predictions = await model.predict(tf.tensor3d(input)).data();
 In this application, minimum 2 symptoms or maximum 4 symptoms can be entered then our application will clean the data and make the data in the form which is suitable to predict function and finally  display the three disease with top 3 probabilities. 
 
 
+Application deployed link :  https://disease-symptom-analysis-nk.herokuapp.com/
 
