@@ -1,5 +1,7 @@
 # Disease_Symptom_Analysis_-_Nodejs_Integration
 
+Intro : This project is about to analysis the symptoms and predict the disease with probabilities.
+
 Application deployed link :  https://disease-symptom-analysis-nk.herokuapp.com/
 
 
