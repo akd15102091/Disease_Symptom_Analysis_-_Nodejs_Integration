@@ -5,7 +5,7 @@ Application deployed link :  https://disease-symptom-analysis-nk.herokuapp.com/
 
 #### 1) Machine Learning Part :--
 
-step 1 ) First of all data scrapping is done using **GoogleSearch and BeautifulSoup libraries** from the url : https://www.nhp.gov.in/disease-a-z/ . Stored the disease and symptoms.
+step 1 ) First of all **data scrapping** is done using **GoogleSearch and BeautifulSoup libraries** from the url : https://www.nhp.gov.in/disease-a-z/ . Stored the disease and symptoms.
 
 step 2 ) Then cleaned this data and make combinations and finally build the csv file.
 
