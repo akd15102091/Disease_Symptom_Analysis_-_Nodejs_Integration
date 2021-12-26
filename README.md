@@ -48,6 +48,7 @@ let predictions = await model.predict(tf.tensor3d(input)).data();
 In this application, minimum 2 symptoms or maximum 4 symptoms can be entered then our application will clean the data and make the data in the form which is suitable to predict function and finally  display the three disease with top 3 probabilities. 
 
 
+
 **--------------------------------------------------------------------------------------------------**
 
 **Application deployed link** :  https://disease-symptom-analysis-nk.herokuapp.com/
